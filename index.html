@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Place Soundscape</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Place Soundscape</h1>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Listen to the soundscape</h2>
+      <audio id="soundscape" controls></audio>
+    </section>
+
+    <section class="card visual-card">
+      <h2>Make the scene move</h2>
+      <p>Press play on the sound or use the button to animate the lights.</p>
+      <div class="scene" id="scene" aria-label="Animated soundscape lights">
+        <span class="light light-one"></span>
+        <span class="light light-two"></span>
+        <span class="light light-three"></span>
+      </div>
+      <button id="dance-button" type="button">Make the lights dance</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
